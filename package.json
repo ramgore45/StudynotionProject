@@ -1,5 +1,5 @@
 {
-  "homepage":"https://ramgore45.github.io/StudynotionProject",
+  "homepage": "https://ramgore45.github.io/StudynotionProject",
   "name": "StudyNotion_E-Learning",
   "version": "0.1.0",
   "private": true,
@@ -45,9 +45,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
-    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build webpack --config webpack.config.js",
     "eject": "react-scripts eject",
     "server": "cd server && npm run dev",
     "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
@@ -71,6 +71,7 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.2.7"
+    "tailwindcss": "^3.2.7",
+    "webpack": "^5.94.0"
   }
 }

@@ -13,7 +13,7 @@ export const INstructorSection = () => {
             </div>
             <div className='w-[50%] flex flex-col justify-center'>
                 <div className='font-semibold text-4xl'>
-                    BEcame an <br></br>
+                    Became an <br></br>
                     <HighlightText text={'Instructor'}/>
                 </div>
                 <p className='w-[80%]font-medium text-[16px] text-richblack-300'>

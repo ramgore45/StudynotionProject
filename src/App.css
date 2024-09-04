@@ -96,11 +96,11 @@ details > summary::-webkit-details-marker {
     rgba(14, 26, 45, 0.24) -1.4%,
     rgba(17, 30, 50, 0.38) 104.96%
   );
-  /* backdrop-filter: blur(26px); */
+  backdrop-filter: blur(26px);
 }
 .homepage_bg {
   background: url("../src/assets/Images/bghome.svg");
-  /* background-size: contain; */
+  background-size: contain;
 }
 
 @keyframes spinner-bulqg1 {
@@ -216,20 +216,20 @@ details > summary::-webkit-details-marker {
 }
 
 /* Swiper CSS Starts */
-/* .swiper {
+.swiper {
   max-width: 1200px;
   width: 91.66%;
   height: 185px;
   margin: 50px 0px;
-} */
+}
 
 .swiper-slide {
   width: 100%;
   height: 100%;
 }
-/* .swiper-slide {
+.swiper-slide {
   @apply bg-richblack-800 text-richblack-25 p-3 text-[14px];
-} */
+}
 /* Swiper CSS Ends */
 
 .blackButton {
